@@ -11,6 +11,8 @@
       },
       "env": {
         "APP_ENV": "production",
+        "NODE_ENV": "production",
+        "APP_ENV": "production",
         "APP_HOST": "0.0.0.0",
         "APP_PORT": "13000",
         "DEFAULT_LOCALE": "zh-TW",
@@ -18,7 +20,8 @@
         "INIT_ROOT_PASSWORD": "admin123",
         "INIT_ROOT_NICKNAME": "管理員",
         "TELEMETRY_ENABLED": "false",
-        "PLUGIN_PACKAGE_PREFIX": "@nocobase/plugin-,@nocobase/preset-,nocobase-plugin-"
+        "PLUGIN_PACKAGE_PREFIX": "@nocobase/plugin-,@nocobase/preset-,nocobase-plugin-",
+        "DB_DIALECT": "postgres"
       },
       "buildCommand": "yarn install --frozen-lockfile --ignore-scripts",
       "startCommand": "yarn nocobase start",
