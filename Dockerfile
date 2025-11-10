@@ -4,13 +4,8 @@ FROM nocobase/nocobase:main
 # 設定工作目錄
 WORKDIR /app
 
-# 複製繁體中文語言包
-COPY packages/core/client/src/locale/zh-TW.json ./packages/core/client/src/locale/
-COPY packages/plugins/@nocobase/plugin-localization/src/locale/zh-TW.json ./packages/plugins/@nocobase/plugin-localization/src/locale/
-
-# 複製所有繁體中文檔案
-COPY packages/plugins/@nocobase/*/src/locale/zh-TW.json ./packages/plugins/@nocobase/*/src/locale/ 2>/dev/null || true
-COPY packages/plugins/@nocobase/*/src/server/locale/zh-TW.json ./packages/plugins/@nocobase/*/src/server/locale/ 2>/dev/null || true
+# 複製所有繁體中文語言包
+COPY packages/ ./packages/
 
 # 設定環境變數
 ENV DEFAULT_LOCALE=zh-TW
