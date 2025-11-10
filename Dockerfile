@@ -1,41 +1,23 @@
-FROM node:18-alpine
+# 使用官方 NocoBase 映像
+FROM nocobase/nocobase:main
 
 # 設定工作目錄
 WORKDIR /app
 
-# 安裝系統依賴
-RUN apk add --no-cache \
-    git \
-    python3 \
-    make \
-    g++ \
-    sqlite
+# 複製繁體中文語言包
+COPY packages/core/client/src/locale/zh-TW.json ./packages/core/client/src/locale/
+COPY packages/plugins/@nocobase/plugin-localization/src/locale/zh-TW.json ./packages/plugins/@nocobase/plugin-localization/src/locale/
 
-# 複製 package.json 和 yarn.lock
-COPY package.json yarn.lock ./
+# 複製所有繁體中文檔案
+COPY packages/plugins/@nocobase/*/src/locale/zh-TW.json ./packages/plugins/@nocobase/*/src/locale/ 2>/dev/null || true
+COPY packages/plugins/@nocobase/*/src/server/locale/zh-TW.json ./packages/plugins/@nocobase/*/src/server/locale/ 2>/dev/null || true
 
-# 安裝依賴 (跳過 postinstall)
-RUN yarn install --frozen-lockfile --ignore-scripts
-
-# 複製源碼
-COPY . .
-
-# 建置應用
-RUN yarn build
+# 設定環境變數
+ENV DEFAULT_LOCALE=zh-TW
+ENV INIT_ROOT_EMAIL=admin@nocobase.com
+ENV INIT_ROOT_PASSWORD=admin123
+ENV INIT_ROOT_NICKNAME=管理員
+ENV APP_PORT=13000
 
 # 暴露端口
 EXPOSE 13000
-
-# 設定環境變數
-ENV NODE_ENV=production
-ENV APP_ENV=production
-ENV APP_HOST=0.0.0.0
-ENV APP_PORT=13000
-ENV DEFAULT_LOCALE=zh-TW
-
-# 複製啟動腳本
-COPY start.sh ./
-RUN chmod +x start.sh
-
-# 啟動命令
-CMD ["./start.sh"]

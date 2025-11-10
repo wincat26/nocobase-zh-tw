@@ -1,0 +1,23 @@
+FROM nocobase/nocobase:latest
+
+# 設定工作目錄
+WORKDIR /app
+
+# 複製繁體中文語言包
+COPY packages/core/client/src/locale/zh-TW.json /app/packages/core/client/src/locale/
+COPY packages/plugins/@nocobase/plugin-localization/src/locale/zh-TW.json /app/packages/plugins/@nocobase/plugin-localization/src/locale/
+
+# 複製所有繁體中文語言包
+COPY packages/ /app/packages/
+
+# 設定環境變數
+ENV DEFAULT_LOCALE=zh-TW
+ENV INIT_ROOT_EMAIL=admin@nocobase.com
+ENV INIT_ROOT_PASSWORD=admin123
+ENV INIT_ROOT_NICKNAME=管理員
+
+# 暴露端口
+EXPOSE 13000
+
+# 啟動命令
+CMD ["yarn", "start"]

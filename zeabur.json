@@ -20,7 +20,7 @@
         "TELEMETRY_ENABLED": "false",
         "PLUGIN_PACKAGE_PREFIX": "@nocobase/plugin-,@nocobase/preset-,nocobase-plugin-"
       },
-      "buildCommand": "yarn install --frozen-lockfile --ignore-scripts && yarn build",
+      "buildCommand": "yarn install --frozen-lockfile --ignore-scripts",
       "startCommand": "yarn nocobase start",
       "ports": [
         {
