@@ -1,0 +1,14 @@
+{
+  "Parallel branch": "並行分支",
+  "Run multiple branch processes in parallel.": "並行執行多个分支流程。",
+  "Add branch": "增加分支",
+  "Mode": "執行模式",
+  "All succeeded": "全部成功",
+  "Any succeeded": "任意成功",
+  "Any succeeded or failed": "任意成功或失敗",
+  "Run all branches (ignore failures)": "全部執行（忽略失敗）",
+  "Continue after all branches succeeded": "全部分支都成功后才能繼續",
+  "Continue after any branch succeeded": "任意分支成功后就繼續",
+  "Continue after any branch succeeded, or exit after any branch failed.": "任意分支成功就繼續流程，或者任意分支失敗就登出流程。",
+  "Always continue after all branches end, regardless of success or failure.": "無论分支成功或失敗，始终在所有分支結束后繼續。"
+}

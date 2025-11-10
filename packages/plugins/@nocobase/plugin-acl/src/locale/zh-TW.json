@@ -1,0 +1,22 @@
+{
+  "The current user has no roles. Please try another account.": "目前使用者沒有角色，请使用其他账号。",
+  "The user role does not exist. Please try signing in again": "使用者角色不存在，请尝试重新登入。",
+  "New role": "新建角色",
+  "Permissions": "權限",
+  "Roles & Permissions": "角色和權限",
+  "General": "通用",
+  "Desktop menu": "桌面端選單",
+  "Plugin settings": "外掛設定",
+  "Data sources": "資料源",
+  "Independent roles": "独立角色",
+  "Allow roles union": "允許角色并集",
+  "Roles union only": "仅角色并集",
+  "Role mode": "角色模式",
+  "Saved successfully": "儲存成功",
+  "Please select role mode": "请選擇角色模式",
+  "Full permissions": "全部權限",
+  "Role mode doc": "https://docs-cn.nocobase.com/handbook/acl/manual",
+  "Do not use role union. Users need to switch between their roles individually.": "不使用角色并集，使用者需要逐个切换自己拥有的角色。",
+  "Allow users to use role union, which means they can use permissions from all their roles simultaneously, or switch between individual roles.": "允許使用者使用角色并集，即可以同時使用自己拥有的所有角色的權限，也允許使用者逐个切换自己的角色。",
+  "Force users to use only role union. They cannot switch between individual roles.": "强制使用者仅能使用角色并集，不能逐个切换角色。"
+}

@@ -1,0 +1,10 @@
+{
+  "The username or email is incorrect, please re-enter": "使用者名或信箱有误，请重新输入",
+  "The password is incorrect, please re-enter": "密碼有误，请重新输入",
+  "Not a valid cellphone number, please re-enter": "不是有效的手機号，请重新输入",
+  "The phone number has been registered, please login directly": "手機号已註冊，请直接登入",
+  "The phone number is not registered, please register first": "手機号未註冊，请先註冊",
+  "Please keep and enable at least one authenticator": "请至少保留并啟用一个認證器",
+  "Please enter your username or email": "请输入使用者名或信箱",
+  "Please enter a valid username": "请输入有效的使用者名"
+}

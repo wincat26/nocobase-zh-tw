@@ -1,0 +1,5 @@
+{
+  "unique violation": "{{field}} 欄位值已存在",
+  "notNull violation": "{{field}} 欄位不能為空",
+  "Validation error": "{{field}} 欄位規則驗證失敗"
+}

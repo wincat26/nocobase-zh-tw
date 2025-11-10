@@ -1,0 +1,13 @@
+{
+  "License key saved successfully, please re-run the plugin installation.": "授權密钥儲存成功，请重新執行外掛安裝操作",
+  "License settings": "授權設定",
+  "Instance ID": "實例 ID",
+  "License key": "授權密钥",
+  "Enter license key": "输入授權密钥",
+  "Invalid license key": "無效的授權密钥",
+  "Change key": "更改密钥",
+  "License key has been set": "授權密钥已設定",
+  "Copied": "複製成功",
+  "Copy": "複製",
+  "Failed to copy, please open ./storage/.license/instance-id and copy it": "複製失敗，请開啟 ./storage/.license/instance-id 并複製"
+}

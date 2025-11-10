@@ -1,0 +1,22 @@
+{
+  "Loop": "迴圈",
+  "Loop target": "迴圈物件",
+  "Loop index (starts from 0)": "目前索引（从 0 開始）",
+  "Loop sequence (starts from 1)": "目前序號（从 1 開始）",
+  "Loop length": "迴圈長度",
+  "By using a loop node, you can perform the same operation on multiple sets of data. The source of these sets can be either multiple records from a query node or multiple associated records of a single record. Loop node can also be used for iterating a certain number of times or for looping through each character in a string. However, excessive looping may cause performance issues, so use with caution.": "使用迴圈节点可以对多条資料进行同样的操作，多条資料的来源可以是查詢节点的多条结果，或者一条資料的多条关系資料。也可以用于一定次数的迴圈，或者对字元串中每一个字元的迴圈處理。迴圈次数过高可能引起效能问题，请谨慎使用。",
+  "A single number will be treated as a loop count, a single string will be treated as an array of characters, and other non-array values will be converted to arrays. The loop node ends when the loop count is reached, or when the array loop is completed. You can also add condition nodes to the loop to terminate it.": "单一數字值将被视为迴圈次数，单一字元串值将被视为字元陣列，其他非陣列值将被转换为陣列。达到迴圈次数，或者将陣列迴圈完成后，迴圈节点結束。你也可以在迴圈中新增條件节点，以终止迴圈。",
+  "Enable loop condition": "啟用迴圈條件",
+  "Loop condition on each item": "迴圈每一项的條件",
+  "When to check": "檢查時机",
+  "Before each starts": "每一轮開始之前",
+  "After each ends": "每一轮完成之后",
+  "When condition is not met on item": "当项不满足條件時",
+  "Exit loop": "登出迴圈",
+  "Continue on next item": "繼續下一项",
+  "Condition": "條件",
+  "When node inside loop failed": "当迴圈内节点執行失敗時",
+  "Continue loop on next item": "繼續迴圈下一项",
+  "Exit loop and continue workflow": "登出迴圈并繼續工作流",
+  "Exit workflow": "登出工作流"
+}

@@ -1,0 +1,13 @@
+{
+  "Detail": "詳情",
+  "Snapshot": "快照",
+  "Add block": "建立区块",
+  "When adding a new record, create a snapshot for its relational record and save in the new record. The snapshot will not be updated when the relational record is updated.": "在新增資料時，为它的关系資料建立快照，并儲存在目前的資料中。关系資料更新時，快照不会更新。",
+  "View record": "檢視資料",
+  "Allow linking to multiple records": "允許关联多条記錄",
+  "The association field to snapshot": "快照目标关系欄位",
+  "Snapshot the snapshot's association fields": "为快照的关系資料建立快照",
+  "Please select": "请選擇",
+  "When a record is created, association data is backed up in a snapshot": "建立記錄時，关系資料会備份到快照里",
+  "Snapshot data": "快照資料"
+}

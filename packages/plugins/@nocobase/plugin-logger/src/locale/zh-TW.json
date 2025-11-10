@@ -1,0 +1,9 @@
+{
+  "Logger": "日誌",
+  "Search": "搜尋",
+  "Download": "下載",
+  "Download logs": "下載日誌",
+  "API request and response logs": "API 介面請求和回應日誌",
+  "Application, database, plugins and other system logs, the error level logs will be sent to": "應用、資料程式庫、外掛和其他系統日誌，錯誤级别日誌将会打印到",
+  "SQL execution logs, printed by Sequelize when the db logging is enabled": "SQL 執行日誌, 資料程式庫日誌啟用時，Sequelize 打印的 SQL 執行日誌"
+}

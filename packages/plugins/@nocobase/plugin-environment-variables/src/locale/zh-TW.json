@@ -1,0 +1,16 @@
+{
+  "Environment": "環境",
+  "Variables and secrets": "變數和密钥",
+  "Variables": "變數",
+  "Secrets": "密钥",
+  "Add variable": "新增變數",
+  "Bulk import": "批量匯入",
+  "Name": "名称",
+  "Value": "值",
+  "Type": "類型",
+  "Plain text": "明文",
+  "Encrypted": "加密",
+  "Delete variable": "刪除變數",
+  "Restart now": "立即重新啟動",
+  "Variables and secrets have been updated. A restart is required for the changes to take effect.": "檢測到變數和密钥有更新，需重新啟動應用才能生效。"
+}

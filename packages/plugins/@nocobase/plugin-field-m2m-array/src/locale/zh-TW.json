@@ -1,0 +1,4 @@
+{
+  "Many to many (array)": "多对多（陣列）",
+  "Many to many (array) description": "支持通過在陣列中儲存目标表唯一鍵的方式建立多对多关系。"
+}

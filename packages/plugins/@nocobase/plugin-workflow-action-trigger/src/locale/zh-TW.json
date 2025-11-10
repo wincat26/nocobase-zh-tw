@@ -1,0 +1,16 @@
+{
+  "Post-action event": "操作后事件",
+  "Triggered after the completion of a request initiated through an action button or API, such as after adding or updating data. Suitable for data processing, sending notifications, etc., after actions are completed.": "通過操作按钮或 API 发起請求時，在請求執行成功后觸發该事件，比如新增、更新操作之后。适用于在操作完成后进行資料處理、傳送通知等。",
+  "Collection": "資料表",
+  "The collection to which the triggered data belongs.": "觸發資料所属的資料表。",
+  "Trigger mode": "觸發模式",
+  "Local mode, triggered after the completion of actions bound to this workflow": "局部模式，绑定该工作流的操作執行完成后觸發",
+  "Global mode, triggered after the completion of the following actions": "全局模式，以下操作執行完成后都觸發",
+  "Select actions": "選擇操作",
+  "Create record action": "建立記錄操作",
+  "Update record action": "更新記錄操作",
+  "Associations to use": "待使用的关系資料",
+  "Trigger data": "觸發器資料",
+  "User acted": "操作者",
+  "Role of user acted": "操作者角色"
+}

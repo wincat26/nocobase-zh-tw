@@ -1,0 +1,18 @@
+{
+  "Enable form": "啟用表单",
+  "Public forms": "公開表单",
+  "Add New": "新增",
+  "Type": "類型",
+  "Open form": "檢視公開表单",
+  "Set password": "設定密碼",
+  "Copy link": "複製連結",
+  "QR code": "二维码",
+  "The form is not enabled and cannot be accessed": "该表单未啟用,無法访问",
+  "Link copied successfully": "複製位址成功",
+  "After successful submission": "提交成功后",
+  "Enable password": "啟用密碼",
+  "Prompt after successful submission": "提交成功后的資訊提示",
+  "Form": "普通表单",
+  "# Submitted successfully!\nThis is a demo text, **supports Markdown syntax**.": "# 提交成功!\n这是一段演示文本，**支持 Markdown 语法**。",
+  "The form is not found": "未找到该表单"
+}

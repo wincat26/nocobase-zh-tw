@@ -1,0 +1,23 @@
+{
+  "Email": "邮件",
+  "From": "发件人",
+  "To": "收件人",
+  "CC": "抄送",
+  "BCC": "密送",
+  "Add email address": "新增邮件位址",
+  "Subject": "主題",
+  "Content": "內容",
+  "Host": "主機",
+  "Port": "連接埠",
+  "Secure": "安全模式",
+  "Account": "账号",
+  "Password": "密碼",
+  "Configure": "編輯",
+  "The email address that will be used as the sender": "发件人邮件位址",
+  "SMTP mail": "SMTP 邮件",
+  "SMTP server host": "SMTP 服務器主機",
+  "Content type": "內容格式",
+  "Plain text": "纯文本",
+  "Transport": "傳輸方式",
+  "In most cases, if using port 465, set it to true; otherwise, set it to false.": "通常情况下，如果使用連接埠 465 ，请設定为 true ；否则，请設定为 false 。"
+}

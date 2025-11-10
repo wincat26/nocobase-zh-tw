@@ -1,0 +1,10 @@
+{
+  "Used for sorting kanban cards, only sorting fields corresponding to grouping fields can be selected": "用于看板卡片的排序，只能選擇与分組欄位相对应的排序欄位",
+  "Global sorting": "全局排序",
+  "Create sort field": "建立排序欄位",
+  "Convert the following integer fields to sorting fields": "将以下整數欄位转为排序欄位",
+  "Sorting field": "排序欄位",
+  "Grouped sorting based on": "基于分組欄位",
+  "Enable drag and drop sorting": "啟用拖曳排序",
+  "Set column width": "設定列宽"
+}

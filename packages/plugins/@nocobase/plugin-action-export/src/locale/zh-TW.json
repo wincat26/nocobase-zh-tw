@@ -1,0 +1,7 @@
+{
+  "Export warning": "每次最多匯出記錄 {{limit}} 行資料，超出的将被忽略。",
+  "Start export": "開始匯出記錄",
+  "another export action is running, please try again later.": "另一匯出記錄任務正在執行，请稍后重試。",
+  "True": "是",
+  "False": "否"
+}

@@ -1,0 +1,20 @@
+{
+  "Mailer": "邮件傳送",
+  "Send email. You can use the variables in the upstream nodes as receivers, subject and content of the email.": "傳送邮件。可以使用上游节点中的變數作为邮件的接收者、主題和內容。",
+  "SMTP host": "SMTP 服務主機名",
+  "Port": "連接埠",
+  "Secure": "安全模式",
+  "User": "使用者名",
+  "Password": "密碼",
+  "From": "发件人",
+  "To": "收件人",
+  "CC": "抄送",
+  "BCC": "暗送",
+  "Add email address": "新增邮件位址",
+  "Subject": "主題",
+  "Content": "內容",
+  "Content type": "內容格式",
+  "Plain text": "纯文本",
+  "Ignore failed sending and continue workflow": "忽略失敗的傳送并繼續工作流",
+  "In most cases, if using port 465, set it to true; otherwise, set it to false.": "通常情况下，如果使用連接埠 465 ，请設定为 true ；否则，请設定为 false 。"
+}

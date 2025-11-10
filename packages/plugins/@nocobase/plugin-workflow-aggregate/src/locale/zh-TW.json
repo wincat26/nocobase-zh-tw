@@ -1,0 +1,13 @@
+{
+  "Aggregate": "彙總查詢",
+  "Counting, summing, finding maximum, minimum, and average values for multiple records of a collection or associated data of a record.": "对一个資料表里的多条資料或者一条資料里的关系資料进行統計、求和、求最大值、最小值、平均值。",
+  "Aggregator function": "彙總函式",
+  "Target type": "目标類型",
+  "Data of collection": "資料表資料",
+  "Data of associated collection": "关联資料表資料",
+  "Field to aggregate": "彙總欄位",
+  "Distinct": "去重",
+  "Query result": "查詢结果",
+  "Result precision": "结果精度",
+  "Number of decimal places for query result.": "查詢结果小數位数"
+}

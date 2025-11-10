@@ -1,0 +1,5 @@
+{
+  "Notification": "通知",
+  "Send notification. You can use the variables in the upstream nodes as content and ohter config.": "傳送通知。您可以使用上游节点中的變數作为通知的內容和其他配置。",
+  "Ignore failure and continue workflow": "忽略失敗并繼續工作流"
+}

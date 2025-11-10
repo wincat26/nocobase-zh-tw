@@ -1,0 +1,18 @@
+{
+  "Multi-app manager": "多應用管理",
+  "Applications": "應用",
+  "App display name": "應用名称",
+  "App ID": "應用識別",
+  "Pin to menu": "在選單上顯示",
+  "Custom domain": "自訂網域名稱",
+  "Manage applications": "管理應用",
+  "Standalone deployment": "独立部署",
+  "Auto start": "自動啟動",
+  "Start mode": "啟動方式",
+  "Start on first visit": "首次访问時啟動",
+  "Start with main application": "随主應用一同啟動",
+  "Authentication options": "認證選項",
+  "JWT secret": "JWT 密钥",
+  "Automatically generate a JWT secret": "自動生成 JWT 密钥",
+  "An independent JWT secret ensures data and session isolation from other applications.": "独立的 JWT 密钥，保证与其他應用的資料与工作階段隔离。"
+}

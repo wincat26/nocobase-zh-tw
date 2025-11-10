@@ -1,0 +1,12 @@
+{
+  "Users & Permissions": "使用者和權限",
+  "Add users": "新增使用者",
+  "Add user": "新增使用者",
+  "Remove user": "移除使用者",
+  "Are you sure you want to remove it?": "你確定要移除吗？",
+  "Random password": "隨機密碼",
+  "Users manager": "使用者管理",
+  "Allow edit profile": "允許修改个人资料",
+  "Allow change password": "允許修改密碼",
+  "User profile is not allowed to be edited": "使用者资料不允許修改"
+}
