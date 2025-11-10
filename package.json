@@ -36,7 +36,6 @@
     "perf": "nocobase perf",
     "doc": "nocobase doc",
     "doc:cn": "nocobase doc --lang=zh-CN",
-    "postinstall": "nocobase postinstall",
     "lint": "eslint .",
     "clean": "nocobase clean",
     "changelog": "auto-changelog -p -t keepachangelog",

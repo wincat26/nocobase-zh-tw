@@ -14,14 +14,13 @@ RUN apk add --no-cache \
 # 複製 package.json 和 yarn.lock
 COPY package.json yarn.lock ./
 
-# 安裝依賴
-RUN yarn install --frozen-lockfile
+# 安裝依賴 (跳過 postinstall)
+RUN yarn install --frozen-lockfile --ignore-scripts
 
 # 複製源碼
 COPY . .
 
-# 初始化和建置
-RUN yarn nocobase install --silent
+# 建置應用
 RUN yarn build
 
 # 暴露端口
