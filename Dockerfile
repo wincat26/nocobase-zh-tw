@@ -15,12 +15,13 @@ RUN apk add --no-cache \
 COPY package.json yarn.lock ./
 
 # 安裝依賴
-RUN yarn install --frozen-lockfile --production=false
+RUN yarn install --frozen-lockfile
 
 # 複製源碼
 COPY . .
 
-# 建置應用
+# 初始化和建置
+RUN yarn nocobase install --silent
 RUN yarn build
 
 # 暴露端口
@@ -33,5 +34,9 @@ ENV APP_HOST=0.0.0.0
 ENV APP_PORT=13000
 ENV DEFAULT_LOCALE=zh-TW
 
+# 複製啟動腳本
+COPY start.sh ./
+RUN chmod +x start.sh
+
 # 啟動命令
-CMD ["yarn", "start"]
+CMD ["./start.sh"]

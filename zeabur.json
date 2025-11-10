@@ -20,8 +20,8 @@
         "TELEMETRY_ENABLED": "false",
         "PLUGIN_PACKAGE_PREFIX": "@nocobase/plugin-,@nocobase/preset-,nocobase-plugin-"
       },
-      "buildCommand": "yarn install && yarn build",
-      "startCommand": "yarn start",
+      "buildCommand": "yarn install --frozen-lockfile && yarn nocobase install && yarn build",
+      "startCommand": "yarn nocobase start",
       "ports": [
         {
           "port": 13000,
